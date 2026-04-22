@@ -766,7 +766,7 @@
   const jEl = document.getElementById('cnt-jobs');
 
   function tick() {
-    const interval = Math.max(100, gauss(400, 150));
+    const interval = Math.max(200, gauss(800, 280));
     setTimeout(() => {
       const dt = interval / 1000;
       water    += Math.max(0, gauss(WATER_PER_SEC  * dt, WATER_PER_SEC  * dt * 0.3));
